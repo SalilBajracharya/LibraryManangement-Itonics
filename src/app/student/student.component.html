@@ -1,0 +1,31 @@
+<div class="student-login col-md-3">
+    <form [formGroup]="studentFormGroup" class="student-form" (ngSubmit)="onSubmit()">
+        <div class="form-group">
+            <label for="userName" class="form-label">Username</label>
+            <input type="text" class="form-control" formControlName="userName">
+        </div>
+        <div class="form-group">
+            <label for="firstName" class="form-label">First Name</label>
+            <input type="text" class="form-control" formControlName="firstName">
+        </div>
+        <div class="form-group">
+            <label for="lastName" class="form-label">Last Name</label>
+            <input type="text" class="form-control" formControlName="lastName">
+        </div>
+        <div class="form-group">
+            <label for="password" class="form-label">Password</label>
+            <input type="password" class="form-control" formControlName="password">
+        </div>
+        <div class="form-group">
+            <label for="email" class="form-label">Email</label>
+            <input type="email" class="form-control" formControlName="email">
+        </div>
+        <div class="form-group">
+            <label for="phoneNumber" class="form-label">Phone Number</label>
+            <input type="number" class="form-control" formControlName="phoneNumber">
+        </div>
+        <div class="form-group">
+            <button class="btn btn-primary" (click)="onSubmit()" routerLink="/login">Register</button>
+        </div>
+    </form>
+</div>

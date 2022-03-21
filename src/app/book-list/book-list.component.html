@@ -1,0 +1,20 @@
+<div class="table-container container">
+    <div class="col-md-6">
+        <table class="table table-success table-striped booklist-table">
+            <thead>
+                <tr>
+                    <td>Book Id</td>
+                    <td>Book Name</td>
+                    <td>Author</td>
+                </tr>
+            </thead>
+            <tbody>
+                <tr *ngFor="let book of books">
+                    <td>{{book.id}}</td>
+                    <td>{{book.bookName}}</td>
+                    <td>{{book.author}}</td>
+                </tr>
+            </tbody>
+        </table>
+    </div>
+</div>

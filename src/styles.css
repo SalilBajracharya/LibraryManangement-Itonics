@@ -1,1 +1,17 @@
 /* You can add global styles to this file, and also import other style files */
+
+@import '~bootstrap/dist/css/bootstrap.min.css';
+:root {
+    --tealGreen: #4ABDAC;
+    --vermillionRed: #FC4A1A;
+    --sunshineYellow: #F78733;
+    --cleanGray: #DFDCE3;
+}
+
+li {
+    list-style: none;
+}
+
+body {
+    margin: 0;
+}

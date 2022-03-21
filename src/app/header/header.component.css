@@ -1,0 +1,33 @@
+header.app-header {
+    position: relative;
+    background-color: var(--tealGreen);
+    min-width: 100vw;
+    height: calc(8/100 * 100vh);
+    top: 0;
+    left: 0;
+    box-shadow: rgba(0 0 0 / 30%) 0px 3px 10px;
+}
+
+header.app-header>.list-items {
+    display: flex;
+    justify-content: space-around;
+    min-height: 100%;
+    align-items: center;
+}
+
+header.app-header>.list-items>ul {
+    display: flex;
+    height: 100%;
+}
+
+header.app-header>.list-items>ul>li {
+    padding: 0 20px;
+    color: var(--cleanGray);
+    font-weight: 700;
+    text-transform: uppercase;
+}
+
+header.app-header>.list-items>ul>li:hover {
+    color: var(--sunshineYellow);
+    cursor: pointer;
+}

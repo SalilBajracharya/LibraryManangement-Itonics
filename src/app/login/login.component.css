@@ -1,0 +1,16 @@
+.studentlogin {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    box-shadow: rgb(0 0 0 / 10%) 0 0 10px;
+    text-align: center;
+}
+
+.studentloginform {
+    padding: 30px;
+}
+
+.studentlogin>.studentloginform>.form-group {
+    padding: 5px 0;
+}
